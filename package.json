@@ -1,0 +1,17 @@
+{
+  "name": "facebook-webhook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@auth0/angular-jwt": "^5.0.2",
+    "prettier": "^2.6.2",
+    "reactstrap": "^9.0.2"
+  }
+}

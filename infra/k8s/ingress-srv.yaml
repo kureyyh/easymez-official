@@ -1,0 +1,61 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress-service
+  namespace: backend
+  annotations:
+    nginx.ingress.kubernetes.io/use-regex: "true"
+    cert-manager.io/issuer: letsencrypt-nginx
+    nginx.ingress.kubernetes.io/enable-cors: "true"
+spec:
+  tls:
+    - hosts:
+        - www.kursatdogan.nl
+      secretName: letsencrypt-nginx
+  rules:
+    - host: www.kursatdogan.nl
+      http:
+        paths:
+          - path: /api/facebook/?(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: facebookwebhook-srv
+                port:
+                  number: 3000
+          - path: /api/message/?(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: message-srv
+                port:
+                  number: 3000
+          - path: /api/users/?(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: auth-srv
+                port:
+                  number: 3000
+          - path: /api/vault
+            pathType: Prefix
+            backend:
+              service:
+                name: vault-internal
+                port:
+                  number: 3200
+#          - path: /api/grafana/?(.*)
+#              pathType: Prefix
+#              backend:
+#                service:
+#                  name: grafana
+#                  port:
+#                    number: 3000
+          - path: /?(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: client-srv
+                port:
+                  number: 3000
+  ingressClassName: nginx
