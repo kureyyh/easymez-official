@@ -20,6 +20,8 @@ app.use(
   })
 );
 
+//Test
+
 app.use(currentUser);
 
 app.use(currentUserRouter);

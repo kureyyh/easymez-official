@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc97def1-cea6-4604-8a18-f865a9718bcf" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/facebook-webhook/src/routes/__test__/post.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/facebook-webhook/src/test/setup.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/facebook-webhook" beforeDir="false" afterPath="$PROJECT_DIR$/facebook-webhook" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/facebook-webhook/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/facebook-webhook/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/facebook-webhook/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/facebook-webhook/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/facebook-webhook/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/facebook-webhook/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/facebook-webhook/src/routes/post.ts" beforeDir="false" afterPath="$PROJECT_DIR$/facebook-webhook/src/routes/post.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/facebook-webhook/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/facebook-webhook/tsconfig.json" afterDir="false" />
+    <list default="true" id="fc97def1-cea6-4604-8a18-f865a9718bcf" name="Changes" comment="update setup test">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy-auth.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy-manifests.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/k8s/auth-depl.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/infra/k8s/services/auth-depl.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/k8s/client-depl.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/infra/k8s/services/client-depl.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/k8s/do-secret.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/infra/k8s/secrets/do-secret.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/k8s/facebookwebhook-depl.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/infra/k8s/services/facebookwebhook-depl.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/k8s/issuer.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/infra/k8s/secrets/issuer.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/k8s/jwt-secret.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/infra/k8s/secrets/jwt-secret.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/k8s/keycloak.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/infra/k8s/services/keycloak.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/k8s/message-depl.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/infra/k8s/services/message-depl.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/k8s/nats-depl.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/infra/k8s/services/nats-depl.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,24 +51,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "16.15.0",
-    "javascript.nodejs.core.library.typings.version": "16.11.32",
-    "last_opened_file_path": "C:/Users/Kursat/Desktop/easymez-official",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Kursat\\Desktop\\easymez-official\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "ts.external.directory.path": "C:\\Users\\Kursat\\Desktop\\easymez-official\\facebook-webhook\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;16.15.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;16.11.32&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kursat/Desktop/easymez-official&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\Kursat\\Desktop\\easymez-official\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Kursat\\Desktop\\easymez-official\\message\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Kursat\Desktop\easymez-official\message\src\routes" />
@@ -74,11 +78,11 @@
       <recent name="C:\Users\Kursat\Desktop\easymez-official\client\src\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kursat\Desktop\easymez-official\infra\k8s\services" />
+      <recent name="C:\Users\Kursat\Desktop\easymez-official\infra\k8s\secrets" />
+      <recent name="C:\Users\Kursat\Desktop\easymez-official\.github\workflows" />
       <recent name="C:\Users\Kursat\Desktop\easymez-official\infra\k8s\vault" />
       <recent name="C:\Users\Kursat\Desktop\easymez-official\infra\k8s" />
-      <recent name="C:\Users\Kursat\Desktop\easymez-official\infra\k8s\secrets" />
-      <recent name="C:\Users\Kursat\Desktop\easymez-official\infra\k8s\https" />
-      <recent name="C:\Users\Kursat\Desktop\easymez-official\infra\k8s\services" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -144,7 +148,9 @@
       <workItem from="1653383889282" duration="641000" />
       <workItem from="1653404031875" duration="1745000" />
       <workItem from="1653559920182" duration="3625000" />
-      <workItem from="1653596127162" duration="1857000" />
+      <workItem from="1653596127162" duration="2657000" />
+      <workItem from="1653645336408" duration="6856000" />
+      <workItem from="1653744675927" duration="461000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1650813278884</created>
@@ -293,7 +299,77 @@
       <option name="project" value="LOCAL" />
       <updated>1652035473366</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="update index">
+      <created>1653645442839</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1653645442839</updated>
+    </task>
+    <task id="LOCAL-00023" summary="update setup tests">
+      <created>1653646337787</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1653646337787</updated>
+    </task>
+    <task id="LOCAL-00024" summary="update setup tests">
+      <created>1653646598183</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1653646598183</updated>
+    </task>
+    <task id="LOCAL-00025" summary="update setup tests">
+      <created>1653647775918</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1653647775918</updated>
+    </task>
+    <task id="LOCAL-00026" summary="update setup test">
+      <created>1653649776349</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1653649776349</updated>
+    </task>
+    <task id="LOCAL-00027" summary="update setup test">
+      <created>1653652944118</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1653652944118</updated>
+    </task>
+    <task id="LOCAL-00028" summary="update setup test">
+      <created>1653653228169</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1653653228169</updated>
+    </task>
+    <task id="LOCAL-00029" summary="update setup test">
+      <created>1653653418749</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1653653418749</updated>
+    </task>
+    <task id="LOCAL-00030" summary="update setup test">
+      <created>1653657840913</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1653657840913</updated>
+    </task>
+    <task id="LOCAL-00031" summary="update setup test">
+      <created>1653658072675</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1653658072675</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +427,10 @@
       <path value="$PROJECT_DIR$/webhook" />
     </ignored-roots>
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="update index" />
+    <MESSAGE value="update setup tests" />
+    <MESSAGE value="update setup test" />
+    <option name="LAST_COMMIT_MESSAGE" value="update setup test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
