@@ -1,22 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="303a3536-2287-4844-81ec-bffdca282325" name="Changes" comment="client deploy">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+    <list default="true" id="fc97def1-cea6-4604-8a18-f865a9718bcf" name="Changes" comment="update test">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy-auth.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy-auth.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy-client.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy-client.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy-facebook-webhook.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy-facebook-webhook.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy-manifests.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy-manifests.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy-message.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy-message.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ts.external.directory.path": "C:\\Users\\Kursat\\Desktop\\easymez-official\\facebook-webhook\\node_modules\\typescript\\lib"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Kursat\\Desktop\\easymez-official\\facebook-webhook\\node_modules\\typescript\\lib&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <servers />
   </component>
