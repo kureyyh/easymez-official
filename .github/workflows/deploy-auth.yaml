@@ -22,4 +22,4 @@ jobs:
         with:
           token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
       - run: doctl kubernetes cluster kubeconfig save easymez
-      - run: kubectl rollout restart backend deployment auth
+      - run: kubectl rollout restart -n backend deployment auth
