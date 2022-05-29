@@ -14,7 +14,6 @@ import { indexChatRouter } from "./routes";
 import { showClientRouter } from "./routes/showClient";
 import { showChatByClientRouter } from "./routes/chats-by-client-id";
 
-// Test
 
 const app = express();
 
