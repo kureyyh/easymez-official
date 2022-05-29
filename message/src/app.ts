@@ -26,7 +26,6 @@ app.use(
   })
 );
 
-// Making Change To The Auth Servic
 
 app.use(currentUser);
 app.use(indexChatRouter);
@@ -36,7 +35,6 @@ app.use(showMessageRouter);
 app.use(postMessageRouter);
 app.use(showClientRouter);
 app.use(showChatByClientRouter);
-//
 
 app.get("*", async (req, res) => {
   throw new NotFoundError();
