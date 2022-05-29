@@ -20,7 +20,6 @@ app.use(
   })
 );
 
-//Test
 
 app.use(currentUser);
 
