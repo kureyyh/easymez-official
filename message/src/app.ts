@@ -13,7 +13,7 @@ import { indexMessageRouter } from "./routes/indexMessage";
 import { indexChatRouter } from "./routes";
 import { showClientRouter } from "./routes/showClient";
 import { showChatByClientRouter } from "./routes/chats-by-client-id";
-// const keycloak = require("./config/keycloak-config.js").initKeycloak();
+
 
 const app = express();
 
