@@ -26,7 +26,7 @@ app.use(
   })
 );
 
-// app.use(keycloak.middleware());
+// Making Change To The Auth Servic
 
 app.use(currentUser);
 app.use(indexChatRouter);
