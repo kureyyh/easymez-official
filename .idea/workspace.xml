@@ -68,11 +68,11 @@
       <recent name="C:\Users\Kursat\Desktop\easymez-official\client\src\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kursat\Desktop\easymez-official\infra\k8s\services" />
+      <recent name="C:\Users\Kursat\Desktop\easymez-official\infra\k8s\secrets" />
+      <recent name="C:\Users\Kursat\Desktop\easymez-official\.github\workflows" />
       <recent name="C:\Users\Kursat\Desktop\easymez-official\infra\k8s\vault" />
       <recent name="C:\Users\Kursat\Desktop\easymez-official\infra\k8s" />
-      <recent name="C:\Users\Kursat\Desktop\easymez-official\infra\k8s\secrets" />
-      <recent name="C:\Users\Kursat\Desktop\easymez-official\infra\k8s\https" />
-      <recent name="C:\Users\Kursat\Desktop\easymez-official\infra\k8s\services" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -138,8 +138,9 @@
       <workItem from="1653383889282" duration="641000" />
       <workItem from="1653404031875" duration="1745000" />
       <workItem from="1653559920182" duration="3625000" />
-      <workItem from="1653596127162" duration="1857000" />
-      <workItem from="1653836628453" duration="761000" />
+      <workItem from="1653596127162" duration="2657000" />
+      <workItem from="1653645336408" duration="6856000" />
+      <workItem from="1653744675927" duration="996000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1650813278884</created>
@@ -288,35 +289,105 @@
       <option name="project" value="LOCAL" />
       <updated>1652035473366</updated>
     </task>
-    <task id="LOCAL-00022" summary="update">
-      <created>1653745922229</created>
+    <task id="LOCAL-00022" summary="update index">
+      <created>1653645442839</created>
       <option name="number" value="00022" />
       <option name="presentableId" value="LOCAL-00022" />
       <option name="project" value="LOCAL" />
-      <updated>1653745922229</updated>
+      <updated>1653645442839</updated>
     </task>
-    <task id="LOCAL-00023" summary="update">
-      <created>1653746006691</created>
+    <task id="LOCAL-00023" summary="update setup tests">
+      <created>1653646337787</created>
       <option name="number" value="00023" />
       <option name="presentableId" value="LOCAL-00023" />
       <option name="project" value="LOCAL" />
-      <updated>1653746006691</updated>
+      <updated>1653646337787</updated>
     </task>
-    <task id="LOCAL-00024" summary="update">
-      <created>1653836666172</created>
+    <task id="LOCAL-00024" summary="update setup tests">
+      <created>1653646598183</created>
       <option name="number" value="00024" />
       <option name="presentableId" value="LOCAL-00024" />
       <option name="project" value="LOCAL" />
-      <updated>1653836666172</updated>
+      <updated>1653646598183</updated>
     </task>
-    <task id="LOCAL-00025" summary="update">
-      <created>1653837143420</created>
+    <task id="LOCAL-00025" summary="update setup tests">
+      <created>1653647775918</created>
       <option name="number" value="00025" />
       <option name="presentableId" value="LOCAL-00025" />
       <option name="project" value="LOCAL" />
-      <updated>1653837143420</updated>
+      <updated>1653647775918</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="update setup test">
+      <created>1653649776349</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1653649776349</updated>
+    </task>
+    <task id="LOCAL-00027" summary="update setup test">
+      <created>1653652944118</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1653652944118</updated>
+    </task>
+    <task id="LOCAL-00028" summary="update setup test">
+      <created>1653653228169</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1653653228169</updated>
+    </task>
+    <task id="LOCAL-00029" summary="update setup test">
+      <created>1653653418749</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1653653418749</updated>
+    </task>
+    <task id="LOCAL-00030" summary="update setup test">
+      <created>1653657840913</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1653657840913</updated>
+    </task>
+    <task id="LOCAL-00031" summary="update setup test">
+      <created>1653658072675</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1653658072675</updated>
+    </task>
+    <task id="LOCAL-00032" summary="update">
+      <created>1653745157409</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1653745157409</updated>
+    </task>
+    <task id="LOCAL-00033" summary="update">
+      <created>1653745386465</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1653745386465</updated>
+    </task>
+    <task id="LOCAL-00034" summary="update">
+      <created>1653837536284</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1653837536284</updated>
+    </task>
+    <task id="LOCAL-00035" summary="update">
+      <created>1653837588310</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1653837588310</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,6 +444,9 @@
       <path value="$PROJECT_DIR$/facebook-webhook" />
       <path value="$PROJECT_DIR$/webhook" />
     </ignored-roots>
+    <MESSAGE value="update index" />
+    <MESSAGE value="update setup tests" />
+    <MESSAGE value="update setup test" />
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
