@@ -1,12 +1,11 @@
-// @ts-ignore
-import express from "express";
+import express, { Request, Response } from "express";
 
 const router = express.Router();
 
 router.get("/api/facebook/webhook", (req, res) => {
   // Your verify token. Should be a random string.
   let VERIFY_TOKEN = "thisisavalidtoken";
-
+  //
   // Parse the query params
   let mode = req.query["hub.mode"];
   let token = req.query["hub.verify_token"];

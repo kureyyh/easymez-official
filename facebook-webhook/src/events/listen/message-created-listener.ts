@@ -37,7 +37,7 @@ function handleMessage(sender_psid: any, received_message: any) {
 
 function callSendAPI(sender_id: any, response: any) {
   const accessToken =
-    "EAAFpJAAl7E0BANZBDkUXfAIMfUNA4qLUqZBxbI28KtuwvGvv3ji02j0v0MPxZCWV9UMAbiU2WonIbMOIcPS9Wdh2pJxL5kprkOkGZAqXhOyQzIgCA5l9ZAbdy60exWDIct7Vqg6UnkvRT18II9GnroOhgKoMrZAiBPdttY912EwAMT5wtPV6Hv";
+    "EAAFpJAAl7E0BANp122XRZA932tbliSzJBd3Ya33N7VVrZA4KgyWe80KKZCPsoWz9PQ9wLFjfTWyiXQHHFP2RLuCzHm5D7CCDG6N1ZCw10jkjfwpzSu7pGgz0cqSeiRi3qlSXmnX0DSZBD8jKpZA9dEZBccZBAliIoJTEa8QMRbRlR5e2rFSk9b2Q";
 
   // Construct the message body
   let request_body = {
@@ -47,6 +47,7 @@ function callSendAPI(sender_id: any, response: any) {
     message: response,
   };
 
+  console.log({ request_body });
   // Send the HTTP request to the Messenger Platform
   request(
     {
